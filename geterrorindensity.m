@@ -2,7 +2,7 @@ function[function_rho_c, R_star, T_star, L_star, M_star, R, Rho, Temp, Mass, Lum
 stefan_boltz = 5.670e-8; %sigma
 
 %Fraction Things
-X = 0.7; %1 - (2*10^-5);
+X = 0.7;
 X_CNO = 0.03*X;
 Y = 0.28; %10^(-5);
 Z = 1-X-Y; %10^(-5);
